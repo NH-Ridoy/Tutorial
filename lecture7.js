@@ -11,14 +11,20 @@
 // sayName();
 
 
-function greeting(msg) {
-    function name(name) {
-        console.log(msg + ' ' + name);
-    }
-    return name;
-}
+// function greeting(msg) {
+//     function name(name) {
+//         console.log(msg + ' ' + name);
+//     }
+//     return name;
+// }
 
 
 
-var out = greeting('Good Morning,');
-var final = out('Mahmud Hasan Mahim');
+// var out = greeting('Good Morning,');
+// var final = out('Mahmud Hasan Mahim');
+
+
+
+
+
+      
