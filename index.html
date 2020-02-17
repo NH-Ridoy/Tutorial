@@ -9,45 +9,89 @@
 <body>
 
 
+
+
+
+
+
+
+
+
+
     <script>
+  
+       var num1 = 20;
+       var num2 = 10;
 
-    //    var num1 = 20;
-    //    var num2 = 10;
+       document.write(  num1+num2 + ' :Number Addition: ' + num1+num2);
 
-    //    document.write(  num1+num2 + ' :Number Addition: ' + num1+num2);
+    var userName = prompt('Enter your name: ');
 
-    // var userName = prompt('Enter your name: ');
+    document.write('Name of length: ' + userName.length);
 
-    // document.write('Name of length: ' + userName.length);
+    var text = 'Bangladesh';
 
-    // var text = 'Bangladesh';
+    document.write(text.charAt(1));
 
-    // document.write(text.charAt(1));
+        var text1 = 'NH ';
+        var text2 = 'Ridoy';
 
-    //     var text1 = 'NH ';
-    //     var text2 = 'Ridoy';
+        var text3 = text1.concat(text2);
+        document.write(text3);
 
-    //     var text3 = text1.concat(text2);
-    //     document.write(text3);
+        var fName = prompt();
+        var lName = prompt();
+        var fName = fName + " " + lName;
 
-        // var fName = prompt();
-        // var lName = prompt();
-        // var fName = fName + " " + lName;
+        document.write(fName);
 
-        // document.write(fName);
+        document.write('<br/>' + fName.toUpperCase());
+        document.write('<br/>' + 'Name of length: ' + fName.length);
 
-        // document.write('<br/>' + fName.toUpperCase());
-        // document.write('<br/>' + 'Name of length: ' + fName.length);
+        document.write('<br/>' + fName.charAt(1));
 
-        // document.write('<br/>' + fName.charAt(1));
+        var num1 = prompt('Enter your first number : ');
+        var num2 = prompt('Enter your second number : ');
+
+        num1 = parseInt(num1, 10);
+        num2 = parseInt(num2,10);
+
+        var sum,sub;
+
+        sum = num1 + num2;
+        document.write('Addition: ' + sum + '<br/>');
+
+        sub = num1 - num2;
+        document.write('Subtraction: ' + sub);
+
+        
+            var firstNumber = prompt('Énter your first number : ');
+            var secondNumber = prompt('Enter your second number : ');
+
+            firstNumber = parseInt(firstNumber,10);
+            secondNumber = parseInt(secondNumber,10);
+
+            var result;
+
+            result = firstNumber + secondNumber;
+            document.write(firstNumber + '+' + secondNumber + '=' + result + '<br/>');
+            
+            result = firstNumber - secondNumber;
+            document.write(firstNumber + '-' + secondNumber + '=' + result + '<br/>');
+
+            result = firstNumber * secondNumber;
+            document.write(firstNumber + '*' + secondNumber + '=' + result + '<br/>');
+
+            result = firstNumber / secondNumber;
+            document.write(firstNumber + '/' + secondNumber + '=' + result + '<br/>');
+
+            result = firstNumber % secondNumber;
+            document.write(firstNumber + '%' + secondNumber + '=' + result);
+
+
 
 
     </script>
-
-    
-
-
-
 </body>
     <script src='lecture7.js'></script>
 </html>
