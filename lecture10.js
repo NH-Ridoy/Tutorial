@@ -1,19 +1,13 @@
-var arr = [4, 5, 6, 7, 8, 9];
+var hi = [1, 2, 3, 4, 5, 6];
 
-arr.forEach(function(element,index,arr) {
-    console.log('Element is = ' + element + ' index of element = ' + index + ' Array = ' + arr);
-});
-
-// Creating forEach function
-
-function loop(arr,callback) {
-    for(var i=0; i <= arr.length; i++){
-        callback(arr[i]);
+function test(para,func) {
+    for(var i=0; i <= para.length; i++){
+        func(para[i],i);
     }
 }
 
-loop(arr,function(element){
-    console.log(element);
-});
 
+test(hi,function(para,index){
+    console.log('Element' + para + ' index ' + index);
+});
 
